@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 from ultralytics import YOLO
 
-model = YOLO("Ai_Model\\best.pt")
+model = YOLO("best.pt")
 
 st.title("🧠 YOLOv8 Object Detection")
 
